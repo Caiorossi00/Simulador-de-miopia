@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simulador de Miopia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-glasses-outline-512.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="frame">
+        <img
+          id="imagem-simulada"
+          src="https://images.unsplash.com/photo-1484353371297-d8cfd2895020?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+      </div>
+      <div class="controls">
+        <label for="miopia">Miopia:</label>
+        <input
+          id="miopia"
+          type="range"
+          name="miopia"
+          min="0"
+          max="10"
+          value="0"
+          data-sizing="px"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
