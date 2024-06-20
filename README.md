@@ -11,6 +11,7 @@ Descrição: Uma aplicação web interativa que simula o efeito visual da miopia
 <li>Uso de variáveis CSS personalizadas (:root) para controlar o nível de blur.</li>
 <li>Event listeners para detectar alterações no controle deslizante e atualizar a imagem.</li>
 <li>Formatação de strings para exibir o valor da miopia com a unidade "px".</li>
+<br/>
 
 
 Datas Importantes: 
